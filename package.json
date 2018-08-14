@@ -1,8 +1,8 @@
 {
   "name": "insight-api",
-  "description": "A Bitcoin blockchain REST and web socket API service for Bitcore Node.",
+  "description": "A Bitcoin Core blockchain REST and web socket API service for Bcore Node.",
   "version": "0.4.3",
-  "repository": "git://github.com/bitpay/insight-api.git",
+  "repository": "git://github.com/bitcoin-cored/insight-api.git",
   "contributors": [
     {
       "name": "Gustavo Cortez",
@@ -38,18 +38,18 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/bitpay/insight-api/issues"
+    "url": "https://github.com/bitcoin-cored/insight-api/issues"
   },
-  "homepage": "https://github.com/bitpay/insight-api",
+  "homepage": "https://github.com/bitcoin-cred/insight-api",
   "license": "MIT",
   "keywords": [
     "insight",
     "insight api",
     "blockchain",
-    "bitcoin api",
+    "bitcoin core api",
     "blockchain api",
     "json",
-    "bitcore"
+    "bcore"
   ],
   "engines": {
     "node": ">=0.12.0"
@@ -61,8 +61,8 @@
   "bitcoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "bitcore-lib": "^0.13.7",
-    "bitcore-message": "^1.0.1",
+    "bcore-lib": "bitcoin-cored/bitcore-lib#master",
+    "bcore-message": "bitcoin-cored/bitcore-message#master",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
     "lodash": "^2.4.1",
